@@ -1,0 +1,10 @@
+mkdir backend
+cd backend
+npm init -y //initializes nodejs
+npm install express cors mongodb dotenv //install dependencies //express for webserver //cors - make the right connections
+npm install -g nodemon //global nodemon (optional). restarts the node on change
+add "type": "module", in package .js under "main"
+add server.js in backend folder
+** do stuff at server js and indexjs and add api
+nodemon server //to start the backend
+create another directory under api called DAO - data access object 
